@@ -1,5 +1,5 @@
 - name: Hello World Sample
   hosts: all
   tasks:
-    - name: 15 minutes delay
+    - name: 160 minutes delay
       shell: sleep 9600 && echo "160 minutes delay"
