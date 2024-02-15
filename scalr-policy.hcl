@@ -63,12 +63,12 @@ policy "cidr" {
   enabled           = true
   enforcement_level = "hard-mandatory"
 }
-*/
+
 policy "ebs_del_on_term" {
   enabled           = true
   enforcement_level = "hard-mandatory"
 }
-
+*/
 policy "iam_instance_profiles" {
   enabled           = true
   enforcement_level = "hard-mandatory"
