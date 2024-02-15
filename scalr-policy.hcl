@@ -47,17 +47,12 @@ policy "denied_provisioners" {
   enforcement_level = "soft-mandatory"
 }
 
+/*
 policy "enforce_enforce_aws_resource" {
   enabled           = true
   enforcement_level = "hard-mandatory"
 }
-
-
-policy "enforce_enforce_aws_resource" {
-  enabled           = true
-  enforcement_level = "hard-mandatory"
-}
-
+*/
 
 policy "enforce_cidr" {
   enabled           = true
