@@ -1,22 +1,22 @@
 policy "workspace_name" {
   enabled           = true
-  enforcement_level = "soft-mandatory"
+  enforcement_level = "advisory"
 }
 
 
 policy "enforce_ami_owners" {
   enabled           = true
-  enforcement_level  = "soft-mandatory"
+  enforcement_level  = "advisory"
 }
 
 policy "workspace_destroy" {
   enabled           = true
-  enforcement_level = "soft-mandatory"
+  enforcement_level = "advisory"
 }
 
 policy "instance_types" {
   enabled           = true
-  enforcement_level = "hard-mandatory"
+  enforcement_level = "advisory"
 }
 
 policy "resource_tags" {
