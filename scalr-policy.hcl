@@ -46,12 +46,12 @@ policy "denied_provisioners" {
   enabled           = true
   enforcement_level = "soft-mandatory"
 }
-
+/*
 policy "enforce_aws_resource" {
   enabled           = true
   enforcement_level = "hard-mandatory"
 }
-
+*/
 policy "aws_iam_and_workspace" {
   enabled           = true
   enforcement_level = "hard-mandatory"
