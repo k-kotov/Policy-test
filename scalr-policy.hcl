@@ -59,7 +59,7 @@ policy "enforce_aws_resource" {
 }
 
 
-policy "cidr" {
+policy "cidr.test" {
   enabled           = true
   enforcement_level = "hard-mandatory"
 }
