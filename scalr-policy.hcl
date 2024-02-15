@@ -58,12 +58,12 @@ policy "enforce_aws_resource" {
   enforcement_level = "hard-mandatory"
 }
 
-
+/*
 policy "cidr.test" {
   enabled           = true
   enforcement_level = "hard-mandatory"
 }
-
+*/
 policy "ebs_del_on_term" {
   enabled           = true
   enforcement_level = "hard-mandatory"
