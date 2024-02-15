@@ -46,7 +46,7 @@ policy "denied_provisioners" {
   enabled           = true
   enforcement_level = "soft-mandatory"
 }
-/
+
 policy "enforce_enforce_aws_resource" {
   enabled           = true
   enforcement_level = "hard-mandatory"
